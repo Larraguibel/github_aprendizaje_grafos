@@ -1,3 +1,5 @@
+# utilidades para geometrías espaciales
+
 import pandas as pd
 import geopandas as gpd
 import ee
