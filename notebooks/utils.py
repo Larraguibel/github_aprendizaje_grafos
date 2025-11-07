@@ -107,3 +107,9 @@ def subdivide_bbox(min_lon, min_lat, max_lon, max_lat, depth=1, eps=1e-6):
         )
 
     return out
+
+def try_int(x):
+    try:
+        return int(x)
+    except Exception:
+        return str(x)
