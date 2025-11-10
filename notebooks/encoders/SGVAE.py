@@ -99,19 +99,19 @@ CONFIGS = [
     # (nombre, params)
     (
         "A_lat32_h128_ns005_lu1e-3",
-        dict(latent_dim=32, hidden_dim=128, noise_scale=0.05, lambda_uniform=1e-3)
+        dict(latent_dim=128, hidden_dim=128, noise_scale=0.05, lambda_uniform=1e-3)
     ),
     (
         "B_lat32_h128_ns010_lu1e-2",
-        dict(latent_dim=32, hidden_dim=128, noise_scale=0.10, lambda_uniform=1e-2)
+        dict(latent_dim=128, hidden_dim=128, noise_scale=0.10, lambda_uniform=1e-2)
     ),
     (
         "C_lat32_h256_ns005_lu1e-2",
-        dict(latent_dim=32, hidden_dim=256, noise_scale=0.05, lambda_uniform=1e-2)
+        dict(latent_dim=128, hidden_dim=256, noise_scale=0.05, lambda_uniform=1e-2)
     ),
     (
         "D_lat32_h256_ns010_lu1e-3",
-        dict(latent_dim=32, hidden_dim=256, noise_scale=0.10, lambda_uniform=1e-3)
+        dict(latent_dim=128, hidden_dim=256, noise_scale=0.10, lambda_uniform=1e-3)
     ),
     (
         "E_lat64_h128_ns005_lu1e-2",
